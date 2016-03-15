@@ -1,0 +1,22 @@
+{
+"retInfo":[
+	{"userId":"90004","userNm":"小明","sex":"1","gradeNm":"三年级1班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10001"},
+	{"userId":"90001","userNm":"小朋","sex":"1","gradeNm":"三年级1班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10001"},
+	{"userId":"90002","userNm":"小李","sex":"1","gradeNm":"三年级1班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10001"},
+	{"userId":"90003","userNm":"小花","sex":"1","gradeNm":"三年级1班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10001"},
+	{"userId":"6087160","userNm":"小月","sex":"1","gradeNm":"三年级1班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10001"},
+	{"userId":"30005","userNm":"小王","sex":"1","gradeNm":"三年级2班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10002"},
+	{"userId":"30006","userNm":"小刘","sex":"1","gradeNm":"三年级2班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10002"},
+	{"userId":"30007","userNm":"小锚","sex":"1","gradeNm":"三年级2班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10002"},
+	{"userId":"30008","userNm":"小严","sex":"1","gradeNm":"三年级2班",
+	 "userTp":"1","schoolNm":"郑州小学","schoolId":"40001","gradeId":"10002"}	 
+]
+}

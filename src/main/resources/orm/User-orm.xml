@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="UserDaoImpl">
+	<typeAlias alias="User" type="com.xin.demo.bean.User" />
+
+	<resultMap id="userMap" class="User">
+		<result column="id" property="id" jdbcType="int" />
+		<result column="name" property="name" jdbcType="VarChar" />
+		<result column="age" property="age" jdbcType="int" />
+		<result column="dept" property="dept" jdbcType="VarChar" />
+	</resultMap>
+
+	<select id="getAllUser" resultMap="userMap">
+		select * from user
+	</select>
+
+	<!-- <insert id="saveAccountBindRel" parameterClass="java.util.Map"> -->
+	<!-- INSERT INTO -->
+	<!-- DB_AP_EDU_ACCOUNTBIND(USERID,OTHERUSERID,USERTYPEID,MOBILE,SYSTYPE,otherUserName) -->
+	<!-- values(#userId#,#otherUserId#,#userType#,#mobile#,#sysType#,#otherUserName#) -->
+	<!-- </insert> -->
+
+	<!-- <update id="updateUserChooseImageUrl" parameterClass="java.util.Map"> -->
+	<!-- update db_ap_edu_accountbind set otheruserid =#userIcon# -->
+	<!-- where systype=100 -->
+	<!-- and usertypeid = #userType# -->
+	<!-- and mobile = #mobile# -->
+	<!-- and userid = #userId# -->
+	<!-- </update> -->
+
+	<!-- <delete id="deleteUserImageByUserId" parameterClass="java.util.Map"> -->
+	<!-- delete from db_ap_edu_accountbind -->
+	<!-- where systype=100 -->
+	<!-- and usertypeid = #userType# -->
+	<!-- and mobile = #mobile# -->
+	<!-- and userid = #userId# -->
+	<!-- </delete> -->
+
+
+</sqlMap>
