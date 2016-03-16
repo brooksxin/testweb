@@ -6,5 +6,6 @@
     <import resource="spring-factory.xml"/>
     <import resource="spring-dao.xml"/>
     <import resource="spring-service.xml"/>
+    <import resource="spring-action.xml"/>
 <!--     <import resource="spring-aop.xml"/> -->
 </beans>

@@ -3,17 +3,32 @@
 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 	<display-name>testweb</display-name>
-	
-	<!-- 配置log4j文件-->
+
+	<!-- 配置log4j文件 -->
 	<context-param>
 		<param-name>log4jConfig</param-name>
 		<param-value>log4j.properties</param-value>
 	</context-param>
-	
+
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:spring/spring-all.xml</param-value>
 	</context-param>
+
+	<!-- 启用Spring的scope='request' -->
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/dhl/*</url-pattern>
+	</filter-mapping>
+
 
 	<filter>
 		<filter-name>characterEncodingFilter</filter-name>
@@ -32,16 +47,7 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
-	<servlet>
-		<servlet-name>XFireServlet</servlet-name>
-		<servlet-class>org.codehaus.xfire.spring.XFireSpringServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>XFireServlet</servlet-name>
-		<url-pattern>/services/*</url-pattern>
-	</servlet-mapping>
-
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>test.html</welcome-file>
 	</welcome-file-list>
 </web-app>

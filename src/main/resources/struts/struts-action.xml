@@ -3,29 +3,8 @@
     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-    <package name="struts-action" extends="projectstruts" namespace="/hn/action">
+    <package name="struts-action" extends="struts-default" namespace="/dhl/base">
+<!--         <action name="common" class="com.xin.demo.action.BaseAction" method="excute" /> -->
         <action name="common" class="commonAction" method="excute" />
-<!--         <action name="forwordTo" class="commonAction" method="forwordTo"> -->
-<!--         	<result name="myOrder" type="redirect">http://10.87.30.144:49000/edu/module/myOrder.html</result> -->
-<!--         </action> -->
-<!--         <action name="commonCMS-*" class="commonAction" method="excute{1}" > -->
-<!--         	<result name="logOut" type="redirect">http://10.87.30.144:49000/edu/module/index.html</result> -->
-<!--         </action> -->
     </package>
-    
-<!--     <package name="login-action" extends="projectstruts" namespace="/hn/login"> -->
-<!--         <action name="loginAuth" class="localLoginAuthAction" method="loginAuth"> -->
-<!--             <result name="success" type="redirect">/module/index.html</result> -->
-<!--         </action> -->
-<!--         <action name="noSessionGo" class="localLoginAuthAction" method="noSessionGoto"> -->
-<!--             <result name="success" type="redirect">http://10.87.30.144:49000/edu/module/index.html</result> -->
-<!--         </action> -->
-<!--         <action name="login" class="loginAction" method="login"> -->
-<!--         	<result name="success" type="redirect">/module/index.html</result> -->
-<!--         </action> -->
-<!--         <action name="user-*" class="loginAction" method="excute{1}"> -->
-<!--         	<result name="loginPg" type="redirect">http://10.87.30.144:49000/edu/module/login.html</result> -->
-<!--         </action> -->
-<!--     </package> -->
-    
 </struts>

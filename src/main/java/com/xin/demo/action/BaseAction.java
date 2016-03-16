@@ -1,5 +1,7 @@
 package com.xin.demo.action;
 
+import java.io.OutputStream;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -32,5 +34,19 @@ public class BaseAction extends ActionSupport implements BeanFactoryAware{
 		return getRequest().getSession();
 	}
 
+	public void excute(){
+		System.out.println("baseActionStart");
+		sendJson("ciao");
+	}
 	
+	public void sendJson(String respJson) {
+		try {
+			HttpServletResponse response = getResponse();
+			byte[] rtndata = respJson.getBytes("UTF-8");
+			response.setContentLength(rtndata.length);
+			response.getWriter().write(respJson);
+		} catch (Exception e) {
+			e.getMessage();
+		}
+	}
 }
