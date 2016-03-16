@@ -1,4 +1,4 @@
-package com.ai.educore.service;
+package com.xin.demo.service;
 
 public class BaseService {
 

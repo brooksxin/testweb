@@ -1,10 +1,10 @@
-package com.ai.educore.service.impl;
+package com.xin.demo.service.impl;
 
 import java.util.List;
 
-import com.ai.educore.bean.User;
-import com.ai.educore.dao.UserDao;
-import com.ai.educore.service.UserService;
+import com.xin.demo.bean.User;
+import com.xin.demo.dao.UserDao;
+import com.xin.demo.service.UserService;
 
 public class UserServiceImpl implements UserService {
 	private UserDao userDao;

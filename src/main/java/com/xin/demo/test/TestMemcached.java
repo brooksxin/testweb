@@ -1,4 +1,4 @@
-package com.ai.educore.test;
+package com.xin.demo.test;
 
 import java.util.Date;
 

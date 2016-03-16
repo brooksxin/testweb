@@ -1,4 +1,4 @@
-package com.ai.educore.bean;
+package com.xin.demo.bean;
 
 public class User {
 	private int id;

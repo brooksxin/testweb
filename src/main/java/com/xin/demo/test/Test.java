@@ -1,13 +1,13 @@
-package com.ai.educore.test;
+package com.xin.demo.test;
 
 import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.ai.educore.bean.User;
-import com.ai.educore.service.UserService;
-import com.ai.educore.service.impl.UserServiceImpl;
+import com.xin.demo.bean.User;
+import com.xin.demo.service.UserService;
+import com.xin.demo.service.impl.UserServiceImpl;
 
 import junit.framework.TestCase;
 

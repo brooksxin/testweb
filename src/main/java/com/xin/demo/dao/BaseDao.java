@@ -1,4 +1,4 @@
-package com.ai.educore.dao;
+package com.xin.demo.dao;
 
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 

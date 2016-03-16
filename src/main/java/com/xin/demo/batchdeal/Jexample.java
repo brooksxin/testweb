@@ -1,4 +1,4 @@
-package com.ai.educore.batchdeal;
+package com.xin.demo.batchdeal;
 
 import java.awt.Container;
 import java.awt.Point;

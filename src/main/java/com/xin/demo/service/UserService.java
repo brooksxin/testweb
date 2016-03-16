@@ -1,8 +1,8 @@
-package com.ai.educore.service;
+package com.xin.demo.service;
 
 import java.util.List;
 
-import com.ai.educore.bean.User;
+import com.xin.demo.bean.User;
 
 public interface UserService {
 	

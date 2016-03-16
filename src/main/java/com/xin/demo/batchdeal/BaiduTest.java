@@ -1,4 +1,4 @@
-package com.ai.educore.batchdeal;
+package com.xin.demo.batchdeal;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

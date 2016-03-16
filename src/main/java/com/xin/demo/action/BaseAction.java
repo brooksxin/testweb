@@ -1,4 +1,4 @@
-package com.ai.educore.action;
+package com.xin.demo.action;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

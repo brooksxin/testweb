@@ -1,8 +1,8 @@
-package com.ai.educore.dao;
+package com.xin.demo.dao;
 
 import java.util.List;
 
-import com.ai.educore.bean.User;
+import com.xin.demo.bean.User;
 
 public interface UserDao {
 	
