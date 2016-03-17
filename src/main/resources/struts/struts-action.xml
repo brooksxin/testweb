@@ -5,6 +5,6 @@
 <struts>
     <package name="struts-action" extends="struts-default" namespace="/dhl/base">
 <!--         <action name="common" class="com.xin.demo.action.BaseAction" method="excute" /> -->
-        <action name="common" class="commonAction" method="excute" />
+        <action name="userAction" class="userAction" method="excute" />
     </package>
 </struts>
